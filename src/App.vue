@@ -19,3 +19,13 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+#app .container {
+  margin: 2rem auto;
+
+  @media screen and (max-width: 1024px) {
+    margin: 2rem 1rem;
+  }
+}
+</style>
