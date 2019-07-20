@@ -6,6 +6,7 @@
       </figure>
     </div>
     <div class="has-text-centered">
+      <p class="title is-5">{{ item.label }}</p>
       <button class="button is-primary" @click="isCardModalActive = true">Show Recipe</button>
     </div>
 
@@ -61,6 +62,10 @@
 <style lang="scss" scoped>
 .button {
   margin: 1rem;
+  margin-top: 0;
+}
+p.title.is-5 {
+  margin: 1rem 0;
 }
 </style>
 
